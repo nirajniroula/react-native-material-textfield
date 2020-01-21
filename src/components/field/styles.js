@@ -7,8 +7,8 @@ export default StyleSheet.create({
   },
 
   input: {
-    top: 2,
-    padding: 0,
+    top: 10,
+    paddingBottom: 16,
     paddingTop: 0, /* XXX: iOS has paddingTop set for multiline input */
     margin: 0,
     flex: 1,
@@ -22,6 +22,7 @@ export default StyleSheet.create({
   },
 
   helperContainer: {
+    minHeight: 8,
     flexDirection: 'row',
     justifyContent: 'flex-end',
     alignItems: 'flex-start',
@@ -30,7 +31,7 @@ export default StyleSheet.create({
   row: {
     flex: 1,
     flexDirection: 'row',
-    alignItems: 'flex-end',
+    justifyContent: 'center'
   },
 
   stack: {
